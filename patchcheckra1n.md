@@ -14,6 +14,7 @@ Cách cài Ubuntu song song với Windows 10, 8, 7 UEFI và GPT</a>
  2.1 Đầu tiên bạn mở Terminal và gõ lệnh sau:  "sudo apt install bspatch"
  
  2.2 Tiếp đến bạn gõ lệnh để cài patch vào Checkra1n ( lưu ý gõ " cd ' chọn  thư mục chứa file Checkra1n và file patch'"): "bspatch checkra1n checkra1n_patched 'file patch'"
+ 
  <img src="https://github.com/hoahuynh-lira/hoahuynh-lira.github.io/raw/master/bspatch.png" width="" height="" />
  + Sau khi cài file patch thành công sẽ xuất hiện file "checkra1n_patched" trong thư mục đã chọn.
  <img src="https://github.com/hoahuynh-lira/hoahuynh-lira.github.io/raw/master/file.png" width="" height="" />
