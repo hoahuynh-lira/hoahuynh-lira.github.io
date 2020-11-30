@@ -1,4 +1,4 @@
-$(document).ready(function() {
+﻿$(document).ready(function() {
 
 if($.cookie("ody-theme") == 1){
 	$(".hero-jumbo").css({background:'linear-gradient(242deg, #ff8a4b, #cf86fa) 0% 0% / 200% '});
@@ -70,5 +70,6 @@ $("#classic").on('click',function(){
 	}
 	console.log(window.location.pathname);
 });
+
 
 

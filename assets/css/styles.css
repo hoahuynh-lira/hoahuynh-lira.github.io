@@ -1,12 +1,13 @@
 @font-face {
 	font-family: Modish;
 	font-display: block;
-	src: url(/fonts/modish-logofont.woff2);
+	src: url(../../fonts/modish-logofont.woff2);
 }
 
 body {
 	
 	font-size: 90%;
+	background-color: #fff;
 }
 
 @keyframes slideInFromBottom {
@@ -523,7 +524,7 @@ transform: translateY(-50vh);
 @media (prefers-color-scheme: dark) {
 	body {
 		color: #ddd;
-		background-color: #222;
+		background-color: #000;
 	}
 
 	.install-tab .nav-link {
